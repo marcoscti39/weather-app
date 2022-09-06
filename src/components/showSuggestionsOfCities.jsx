@@ -8,8 +8,7 @@ export default function ShowSuggestionsOfCities({input, setInput}) {
     const [suggestions, setSuggestions] = useState([])
     const showSuggestions = useRef()
 
-    const test = () => {
-      console.log('oi')
+    const clearInput = () => {
       setInput("")
     }
 
@@ -41,7 +40,7 @@ export default function ShowSuggestionsOfCities({input, setInput}) {
           return(
 
             <Link key={uuid()} href={`/${name}+${lat}+${lon}`}>
-              <a className={styles.suggestion} onClick={test}>
+              <a className={styles.suggestion} onClick={clearInput}>
               {`${name} (${country})`}
               </a>
             </Link>
