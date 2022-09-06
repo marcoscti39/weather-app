@@ -43,7 +43,9 @@ export default function Home() {
                   src='/images/new-york.jpg'
                   alt='new york image'
                   layout='fill'
-                  objectFit='cover'/>
+                  objectFit='cover'
+                  placeholder='blur'
+                  blurDataURL/>
               </div>
 
               <span className={styles.cityName}>new york</span>
@@ -57,7 +59,9 @@ export default function Home() {
                   src='/images/tokyo.jpeg'
                   alt='tokyo image'
                   layout='fill'
-                  objectFit='cover'/>
+                  objectFit='cover'
+                  placeholder='blur'
+                  blurDataURL/>
               </div>
 
               <span className={styles.cityName}>tokyo</span>
@@ -71,7 +75,9 @@ export default function Home() {
                   src='/images/paris.jpg'
                   alt='paris image'
                   layout='fill'
-                  objectFit='cover'/>
+                  objectFit='cover'
+                  placeholder='blur'
+                  blurDataURL/>
               </div>
 
               <span className={styles.cityName}>paris</span>
