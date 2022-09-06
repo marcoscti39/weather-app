@@ -4,6 +4,7 @@
     flex-direction: column;
     max-width: 800px;
     margin-inline: auto;
+    padding: 1.5rem;
     
     
 
@@ -71,4 +72,18 @@
     font-size: 1.2rem;
     color: rgb(48, 48, 48);
     
+}
+
+@media (max-width: 830px){
+    .imagesContainer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px;
+    }
+}
+
+@media (max-width: 440px){
+    .imagesContainer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 260px 260px;
+    }
 }
