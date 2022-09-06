@@ -1,3 +1,11 @@
+:root{
+  --dark: #242424;
+  --primary: #4361ee;
+  --secondary: #5e60ce;
+  --tertiary: #22b0db;
+
+}
+
 html,
 body {
   padding: 0;

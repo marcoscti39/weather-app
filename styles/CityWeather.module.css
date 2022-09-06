@@ -1,0 +1,79 @@
+.weatherContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin-inline: auto;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    overflow-x: hidden;
+}
+
+.backHome{
+    color: var(--primary)
+}
+
+.form{
+    position: relative;
+}
+
+.input{
+    padding: 1rem;
+    font-size: 1.1rem;
+    width: 100%;
+    border: var(--primary) solid 2px;
+    border-radius: .5rem;
+    outline-color: var(--primary);
+}
+.currentWeatherSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--primary);
+    width: 100%;
+    color: white;
+    border-radius: .5rem; 
+}
+
+.currentWeatherContainer{
+    position: relative;
+    min-width: 150px;
+
+}
+
+.title{
+    margin: 0;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: 1.6rem;
+
+}
+.minTempeture{
+    margin-left: .5rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.maxTempeture{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.sunSetAndRiseContainer{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 5px;
+}
+.sunriseContainer, .sunsetContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.sunsetTime, .sunriseTime{
+    font-weight: 200;
+}
+
+.weatherStateText{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+

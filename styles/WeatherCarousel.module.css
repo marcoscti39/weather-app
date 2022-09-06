@@ -1,0 +1,28 @@
+.weatherNextHoursSection{
+    display: flex;
+    color: white;
+    gap: .5rem;
+    overflow-x: scroll;
+}
+
+.weatherNextHourContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    width: 150px;
+    align-items: center;
+    border-radius: .5rem;
+    padding: .5rem 0;
+    flex-shrink: 0;
+    overflow-x: scroll;
+
+    
+
+}
+
+.nextHourTime{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}

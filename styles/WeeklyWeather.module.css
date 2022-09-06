@@ -1,0 +1,81 @@
+.weeklyWeatherSection{
+    margin-bottom: 4rem;
+}
+
+
+.weeklyTitle{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.boldTxt{
+    font-weight: 600;
+}
+.weeklyWeatherContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.weeklyArticle{
+    display: flex;
+    color: white;
+    background-color: var(--tertiary);
+    border-radius: .5rem;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.dayWrapper{
+    gap: .7rem;
+    margin-right: 2rem;
+}
+.dayTxt{
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: .4rem;
+
+}
+.maxTemperature{
+    font-size: 1.2rem;
+    margin-right: .4rem;
+}
+
+.minTemperature{
+    font-weight: 200;
+
+}
+
+.sunsetAndRiseWrapper{
+    display: flex;
+    gap: .5rem;
+}
+.sunriseContainer, .sunsetContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+
+}
+.sunriseTime, .sunsetTime{
+    font-weight: 200;
+}
+
+
+.weatherStateContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1rem;
+    margin-left: auto;
+}
+
+.weatherStateImage{
+    width: 90px;
+    height: 90px;
+   
+    position: relative;
+}
+
+.weatherStateTxt{
+    text-align: center;
+}
+
