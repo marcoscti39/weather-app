@@ -13,7 +13,7 @@ import { formatDate } from '../formatDate'
 export async function getServerSideProps(context) {
   const splitParams = context.params.name.split("+")
   const [cityName,lat,lon] = splitParams
-  const cityWeatherByHoursUrl = (lat, lon) => `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${process.env.API_KEY}&units=metric` 
+  const cityWeatherByHoursUrl = (lat, lon) => `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${process.env.API_KEY}&units=metric` 
   const cityWeatherCurrentUrL = (lat, lon) => `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.API_KEY}&units=metric`
 
   const fetchWeatherByHour = async (lat,lon) =>{

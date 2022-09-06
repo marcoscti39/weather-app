@@ -20,7 +20,7 @@ export default function ShowSuggestionsOfCities({input, setInput}) {
     }
 
     const getLatAndLonUrl = (input) => {
-        return `http://api.openweathermap.org/geo/1.0/direct?q=
+        return `https://api.openweathermap.org/geo/1.0/direct?q=
         ${input}&limit=5&appid=${process.env.API_KEY}`
     }
 
