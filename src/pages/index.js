@@ -19,7 +19,7 @@ export default function Home() {
       </form>
 
         <div className={styles.imagesContainer}>
-          <Link href="/London">
+          <Link href="London+51.5073219+-0.1276474">
             <div className={styles.imageWrapper} >
               <div className={styles.cityImage}>
                 <Image 
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href='/newyork'>
+          <Link href='/New%20York+40.7127281+-74.0060152'>
             <div className={styles.imageWrapper}>
               <div className={styles.cityImage}>
                 <Image 
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </Link>
          
-          <Link href="/tokyo">
+          <Link href="/Tokyo+35.6828387+139.7594549">
             <div className={styles.imageWrapper} >
               <div className={styles.cityImage}>
                 <Image 
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </Link>
           
-          <Link href="/paris">
+          <Link href="/Paris+48.8588897+2.3200410217200766">
             <div className={styles.imageWrapper} >
               <div className={styles.cityImage}>
                 <Image 
